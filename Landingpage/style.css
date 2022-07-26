@@ -1,0 +1,73 @@
+body {margin: 0;}
+
+Header {
+    background-color: #1F2937;
+    color:white;
+    padding-left:15%;
+    padding-right:15%;
+    padding-top:20px;
+    max-height: 40vh;
+    display:flex;
+    flex-direction: column;
+}
+
+/* Upper Header Area */ 
+
+.herohead {
+    display:flex;
+    flex:auto
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap:20px;
+    font-size:18px;
+    color: #E5E7EB;
+}
+
+.pusher {
+    margin-left:auto;
+}
+
+.logo {
+
+}
+.link {
+    display:flex;
+
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+/*Lower Header Area*/
+
+.Hlower {
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    
+}
+
+.intro {
+   Display:flex;
+   flex-direction: row; 
+   flex-wrap: wrap;
+   justify-content: flex-start;
+}
+h3 {
+    font-size: 48px;
+    font-weight:900;
+    color:#F9FAF8;
+    display: flex;
+}
+p {
+   flex:1;
+   font-size: 18px;
+   color:#E5E7EB;
+}
+.chairdog{
+    max-width:100%;
+    height:auto;
+}
