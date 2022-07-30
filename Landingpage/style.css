@@ -25,7 +25,6 @@ header {
     flex-wrap: nowrap;
     gap:20px;
     font-size:18px;
-    color: #E5E7EB;
     height: 2.5vh;
 }
 
@@ -39,6 +38,7 @@ header {
     justify-content: space-around;
     margin-right:5%;
     align-self: center;
+    color:#646669;
 }
 
 .logo {
@@ -51,7 +51,7 @@ header {
 } 
 
 a {
-    color:white;
+    color:#aeb0b5;
     text-decoration: none;
 }
 
@@ -66,18 +66,19 @@ a {
     max-height: 25vh;
     min-height: 0;
     margin: 0;
+    color:#aeb0b5
 }
 
 .Intro p {
     font-size: 2vh;
     margin: 0;
-    ma
+    color:#aeb0b5
 }
 
 .h3 {
     font-size: 5vh;
     font-weight: 800;
-    color:#f9faf8;
+    color:#aeb0b5
 }
 .chairdog {
     flex: 1,0,auto;
@@ -100,10 +101,75 @@ button {
     padding:.2vh .5vw;
     font-size: 1.75vh;
 }
+/* Main body */
 
 .interestimages {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top:5vh;
+    margin-right: 5vw;
+   
+
+}
+
+#main h5 {
+    display:flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+
+}
+
+#main img {
+    border:3px solid #3882f6;
+    border-radius: 25px;
+    
+}
+.int1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap ;
+    width: 4vw;
+    height: fit-content;
+    align-items: stretch;
+    margin-right: 16vw;
+    font-size: 1.75vh;
+    color:#5e5e60;
+}
+
+.int2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap ;
+    width: 5vw;
+    height: fit-content;
+    align-items: stretch;
+    margin-right: 16vw;
+    font-size: 1.75vh;
+    color:#5e5e60;
+}
+
+.int3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap ;
+    width: 5vw;
+    height: fit-content;
+    align-items:stretch;
+    margin-right: 16vw; font-size: 1.75vh;
+    color:#5e5e60;
+}
+
+.int4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap ;
+    width: 5vw;
+    height: fit-content;
+    align-items:stretch;
+    font-size: 1.75vh;
+    color:#5e5e60;
 }
