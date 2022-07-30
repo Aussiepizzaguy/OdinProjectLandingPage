@@ -96,22 +96,19 @@ button {
 
     background-color: #3882f6;
     color: #f9faf8;
-    border-radius: 10px;
-    margin-top: 2vh;
-    padding:.2vh .5vw;
-    font-size: 1.75vh;
+    border-radius: 8px;
+    border: white solid 1px;
+    width:200px;
+    margin-top:3vh;
 }
 /* Main body */
 
 .interestimages {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
-    margin-top:5vh;
-    margin-right: 5vw;
-   
-
+    margin-top:4vh;
+    gap:40px;
 }
 
 #main h5 {
@@ -126,29 +123,25 @@ button {
 #main img {
     border:3px solid #3882f6;
     border-radius: 25px;
-    
 }
 .int1 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap ;
-    width: 4vw;
     height: fit-content;
-    align-items: stretch;
-    margin-right: 16vw;
-    font-size: 1.75vh;
+    align-items: center;
+    font-size: 16px;
     color:#5e5e60;
+    width:
 }
 
 .int2 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap ;
-    width: 5vw;
     height: fit-content;
-    align-items: stretch;
-    margin-right: 16vw;
-    font-size: 1.75vh;
+    align-items: center;
+    font-size: 16px;
     color:#5e5e60;
 }
 
@@ -156,20 +149,90 @@ button {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap ;
-    width: 5vw;
     height: fit-content;
-    align-items:stretch;
-    margin-right: 16vw; font-size: 1.75vh;
+    align-items:center;
+    font-size: 16px;
     color:#5e5e60;
+
 }
 
 .int4 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap ;
-    width: 5vw;
     height: fit-content;
-    align-items:stretch;
-    font-size: 1.75vh;
+    align-items:center;
+    font-size: 16px;
     color:#5e5e60;
+
+}
+
+.quotebox {
+    background-color:#7b7b7e;
+   width: 100vw;
+   font-size: 18px;
+   color: #1f2937;
+   font-weight: 400;
+   flex-wrap:nowrap;
+   display:flex;
+   flex-direction: column;
+   padding-bottom: 20px;
+}
+
+.quotebox p{
+    font-style: italic;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.qauthor { 
+    justify-content: center;
+   font-size: 18px;
+   align-self: flex-end;
+   justify-self: flex-end;
+   font-weight: bold;
+   min-width: 0;
+   min-height: 0;
+}
+
+.bottommain {
+display: flex; 
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.cta {
+    background-color: #3882f6;
+    color: #ebedf1;
+    margin:5vh;
+    width: 50vw;
+    border-radius:8px;
+    display: flex;
+    justify-content: flex-start;
+    padding:1vh 4vw 1vh 4vw;
+    align-items: center;
+
+}
+
+.subtext {
+    color:#aeb0b5;
+}
+
+.cta button  {
+    align-self:center;
+    margin-left: auto;
+    margin-bottom:20px;
+    background-color: #3882f6;
+    color: #ebedf1;
+    border-radius: 8px;
+    border: white solid 1px;
+    width:120px;
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #bcc0c6;
 }
