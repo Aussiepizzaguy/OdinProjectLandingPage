@@ -60,6 +60,7 @@ a {
 .Hlower {
     display: flex;
     gap:20px;
+    width:100%
 }
 
 .intro {
@@ -72,7 +73,8 @@ a {
 .Intro p {
     font-size: 2vh;
     margin: 0;
-    color:#aeb0b5
+    color:#aeb0b5;
+    width:75%;
 }
 
 .h3 {
@@ -81,15 +83,13 @@ a {
     color:#aeb0b5
 }
 .chairdog {
-    flex: 1,0,auto;
-    min-width:18vw;;
-    max-width: 300px;
+    padding-top:20px;
+    margin-right:5%;
     min-height: 0;
-    max-height: 25vh;
-    height: 25vh;
-    margin:5%;
-    margin-top:2.5%;
-    align-self: flex-start;
+    max-height:30vh;
+    min-width: 0;
+    max-width: 15vw;
+    margin-left: auto;
 }
 
 button {
@@ -108,7 +108,11 @@ button {
     flex-direction: row;
     justify-content: center;
     margin-top:4vh;
-    gap:40px;
+    gap:60px;
+    margin-left: 100px;
+    margin-right:100px;
+    flex-wrap: wrap;
+
 }
 
 #main h5 {
@@ -127,43 +131,43 @@ button {
 .int1 {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap ;
     height: fit-content;
     align-items: center;
     font-size: 16px;
     color:#5e5e60;
-    width:
+    flex-wrap:wrap;
+
 }
 
 .int2 {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap ;
     height: fit-content;
     align-items: center;
     font-size: 16px;
     color:#5e5e60;
+    flex-wrap: wrap;
 }
 
 .int3 {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap ;
     height: fit-content;
     align-items:center;
     font-size: 16px;
     color:#5e5e60;
+    flex-wrap: wrap;
 
 }
 
 .int4 {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap ;
     height: fit-content;
     align-items:center;
     font-size: 16px;
     color:#5e5e60;
+    flex-wrap: wrap;
 
 }
 
@@ -217,6 +221,7 @@ align-items: center;
 
 .subtext {
     color:#aeb0b5;
+    padding-top: 20px;
 }
 
 .cta button  {
