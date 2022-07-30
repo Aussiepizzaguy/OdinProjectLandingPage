@@ -77,7 +77,8 @@ p {
 }
 .chairdog {
     flex: 1,0,auto;
-    min-width: 28vw;
+    min-width:20vw;;
+    max-width: 300px;
     min-height: 0;
     max-height: 25vh;
     height: 25vh;
